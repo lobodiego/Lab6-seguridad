@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="MD4 online hash function">
+    <title>Hash MD4
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1><a href="index.html">Calculadora Funciones HASH</a></h1>
+    </div>
+    <div id="body">
+      <script src="js/main.js"></script>
+      <div id="main">
+        <h1>MD4
+        </h1>
+        <div class="description">Funcion HASH MD4 
+        </div>
+        <div class="input">
+          <textarea id="input" placeholder="Ingrese su Texto"></textarea>
+        </div>
+        <div class="submit">
+          <input id="execute" type="button" value="Generar" class="btn btn-default">
+          <label>
+            <input id="auto-update" type="checkbox" value="1" checked="checked">Auto Generar
+          </label>
+        </div>
+        <div class="output">
+          <textarea id="output" placeholder="Salida"></textarea>
+        </div>
+      </div>
+      <div id="sidebar">
+        <div class="col">
+          <ul class="menu">
+            <li>
+              <div class="menu-group">Hash</div>
+            </li>
+            <li><a href="md4.html">MD4</a></li>
+            <li><a href="md5.html">MD5</a></li>
+            <li><a href="sha1.html">SHA1</a></li>
+            <li><a href="sha256.html">SHA256</a></li>
+          </ul>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/emn178/js-md4/build/md4.min.js"></script>
+      <script>method = md4;</script>
+    </div>
+    <div id="footer">Diego Quispe Candelario</div>
+  </body>
+</html>
